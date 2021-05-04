@@ -23,6 +23,7 @@
     <!-- Always on display -->
     <string name="aod_setting_title">Всегда включен</string>
     <string name="aod_setting_summary">Показывать время, уведомления и другую информацию</string>
+    <string name="doze_always_on_text">Дисплей всегда включен - позволяет вам проверять время, значки уведомлений и другую информацию, когда устройство заблокировано. Увеличивает расход заряда батареи.</string>
     <!-- Always on while charging -->
     <string name="doze_on_charge_title">Всегда включен во время зарядки</string>
     <string name="doze_on_charge_summary">Всегда показывать активный экран во время зарядки устройства</string>
@@ -48,6 +49,20 @@
     <!-- Brightness -->
     <string name="doze_brightness_force_title">Принудительные значения яркости</string>
     <string name="doze_brightness_force_summary">Использовать пользовательские значения яркости вместо яркости экрана</string>
-    <string name="ambient_pulse_brightness_title">Активный дисплей</string>
+    <string name="ambient_pulse_brightness_title">Активный дисплей, уведомления</string>
     <string name="ambient_doze_brightness_title">Дисплей всегда включен</string>
+    <!-- Switch On/Off  -->
+    <string name="switch_on_text">Включено</string>
+    <string name="switch_off_text">Выключено</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Расписание</string>
+    <string name="always_on_display_schedule_sunset">Закат</string>
+    <string name="always_on_display_schedule_sunrise">Восход</string>
+    <string name="always_on_display_schedule_none">Нет</string>
+    <string name="always_on_display_schedule_twilight">Включен от заката до рассвета</string>
+    <string name="always_on_display_schedule_mixed_sunset">Включен от заката до заданного времени</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Включен от заданного времени до рассвета</string>
+    <string name="always_on_display_schedule_custom">Включен в заданный промежуток времени</string>
+    <string name="always_on_display_start_time_title">Время включения</string>
+    <string name="always_on_display_end_time_title">Время отключения</string>
 </resources>
