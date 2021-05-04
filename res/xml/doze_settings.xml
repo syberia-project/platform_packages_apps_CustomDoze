@@ -45,7 +45,7 @@
                 android:targetClass="com.custom.ambient.display.AODSchedule" />
         </com.syberia.settings.preference.SecureSettingMasterSwitchPreference>
 
-        <com.syberia.settings.preference.SecureSettingSwitchPreference
+        <com.syberia.settings.preference.SystemSettingSwitchPreference
             android:key="doze_on_charge"
             android:defaultValue="false"
             android:title="@string/doze_on_charge_title"
