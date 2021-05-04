@@ -3,14 +3,22 @@
     package="com.custom.ambient.display"
     android:sharedUserId="android.uid.system">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.BIND_DEVICE_ADMIN" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="android.permission.CONTROL_DISPLAY_BRIGHTNESS"/>
 
     <protected-broadcast android:name="com.android.systemui.doze.pulse" />
 
     <uses-sdk
-        android:targetSdkVersion="27"/>
+        android:targetSdkVersion="29"/>
 
     <application
         android:label="CustomDoze"
@@ -39,5 +47,6 @@
             android:label="@string/ambient_doze_brightness_title"
             android:theme="@style/AppTheme">
         </activity>
+
     </application>
 </manifest>

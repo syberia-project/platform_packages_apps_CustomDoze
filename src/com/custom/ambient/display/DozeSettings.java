@@ -26,12 +26,12 @@ import android.view.MenuItem;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
+import androidx.preference.SwitchPreference;
 
-import com.havoc.support.preferences.SecureSettingMasterSwitchPreference;
-import com.havoc.support.preferences.SecureSettingSwitchPreference;
-import com.havoc.support.preferences.SwitchPreference;
-import com.havoc.support.preferences.SystemSettingSeekBarPreference;
-import com.havoc.support.preferences.SystemSettingSwitchPreference;
+import com.syberia.settings.preference.SecureSettingMasterSwitchPreference;
+import com.syberia.settings.preference.SecureSettingSwitchPreference;
+import com.syberia.settings.preference.SystemSettingSeekBarPreference;
+import com.syberia.settings.preference.SystemSettingSwitchPreference;
 
 public class DozeSettings extends PreferenceActivity implements PreferenceFragment.OnPreferenceStartFragmentCallback {
 

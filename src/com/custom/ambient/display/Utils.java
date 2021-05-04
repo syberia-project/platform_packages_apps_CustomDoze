@@ -78,7 +78,7 @@ public final class Utils {
 
     protected static boolean isAoDChargeEnabled(Context context) {
         return Settings.Secure.getInt(context.getContentResolver(),
-                Settings.Secure.DOZE_ON_CHARGE, 0) != 0;
+                Settings.System.DOZE_ON_CHARGE, 0) != 0;
     }
 
     protected static boolean isAoDAvailable(Context context) {
@@ -136,7 +136,7 @@ public final class Utils {
 
     protected static boolean enableAoDCharge(boolean enable, Context context) {
         boolean enabled = Settings.Secure.putInt(context.getContentResolver(),
-                Settings.Secure.DOZE_ON_CHARGE, enable ? 1 : 0);
+                Settings.System.DOZE_ON_CHARGE, enable ? 1 : 0);
         return enabled;
     }
 
@@ -191,7 +191,7 @@ public final class Utils {
 
     protected static void launchDozePulse(Context context) {
         final boolean fodEnabled = Settings.System.getInt(context.getContentResolver(),
-                Settings.System.SCREEN_OFF_FOD, 0) != 0;
+                Settings.System.FOD_GESTURE, 0) != 0;
         if (!fodEnabled) {
             if (DEBUG) Log.d(TAG, "Launch doze pulse");
             context.sendBroadcastAsUser(new Intent(DOZE_INTENT),
