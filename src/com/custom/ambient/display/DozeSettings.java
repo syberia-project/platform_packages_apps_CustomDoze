@@ -73,8 +73,8 @@ public class DozeSettings extends PreferenceActivity implements PreferenceFragme
         private SwitchPreference mRaiseToWakePreference;
         private SwitchPreference mHandwavePreference;
         private SwitchPreference mPocketPreference;
+        private SwitchPreference mDoubleTapPreference;
         private SystemSettingSwitchPreference mDozeOnChargePreference;
-        private SystemSettingSwitchPreference mDoubleTapPreference;
         private SystemSettingSwitchPreference mMusicTickerPreference;
         private SystemSettingSeekBarPreference mDozeBrightness;
         private SystemSettingSeekBarPreference mPulseBrightness;
@@ -96,9 +96,6 @@ public class DozeSettings extends PreferenceActivity implements PreferenceFragme
             mDozeOnChargePreference =
                 (SystemSettingSwitchPreference) findPreference(Utils.AOD_CHARGE_KEY);
 
-            mDoubleTapPreference =
-                (SystemSettingSwitchPreference) findPreference(Utils.DOUBLE_TAP_KEY);
-
             mMusicTickerPreference =
                 (SystemSettingSwitchPreference) findPreference(Utils.MUSIC_TICKER_KEY);
 
@@ -110,6 +107,11 @@ public class DozeSettings extends PreferenceActivity implements PreferenceFragme
             } else {
                 mDozeOnChargePreference.setVisible(false);
             }
+
+            mDoubleTapPreference =
+                (SwitchPreference) findPreference(Utils.DOUBLE_TAP_KEY);
+            mDoubleTapPreference.setChecked(Utils.isDozeEnabled(mContext));
+            mDoubleTapPreference.setOnPreferenceChangeListener(this);
 
             mAmbientDisplayPreference =
                 (SwitchPreference) findPreference(Utils.AMBIENT_DISPLAY_KEY);
