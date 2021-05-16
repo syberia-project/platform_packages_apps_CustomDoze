@@ -44,8 +44,8 @@
     <string name="pocket_gesture_title">В кармане</string>
     <string name="pocket_gesture_summary">Достаньте свой телефон из кармана, чтобы проверить время, уведомления и другую информацию</string>
     <!-- Double tap -->
-    <string name="doze_double_tap_title">Двойное касание</string>
-    <string name="doze_double_tap_summary">Дважды коснитесь телефона для проверки времени, значков уведомлений и другой информации</string>
+    <string name="doze_double_tap_title">Двойное нажатие включает AOD</string>
+    <string name="doze_double_tap_summary">Двойное нажатие вместо экрана блокировки включает AOD</string>
     <!-- Brightness -->
     <string name="doze_brightness_force_title">Принудительные значения яркости</string>
     <string name="doze_brightness_force_summary">Использовать пользовательские значения яркости вместо яркости экрана</string>

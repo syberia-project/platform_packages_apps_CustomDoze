@@ -25,7 +25,7 @@
     <string name="switch_off_text">Off</string>
 
     <!-- Battery percentage -->
-    <string name="ambient_battery_percent_title">Battery level</string> 
+    <string name="ambient_battery_percent_title">Battery level</string>
     <string name="ambient_battery_percent_summary">Show battery percent on the bottom of the screen</string>
 
     <!-- Always on display -->
@@ -58,8 +58,8 @@
     <string name="pocket_gesture_summary">Take out your phone from pocket to check time, notification icons and other info</string>
 
     <!-- Double tap -->
-    <string name="doze_double_tap_title">Double tap</string>
-    <string name="doze_double_tap_summary">Double tap your phone to check time, notification icons and other info</string>
+    <string name="doze_double_tap_title">Double tap to doze</string>
+    <string name="doze_double_tap_summary">Double tap trigger doze instead of wake</string>
 
     <!-- Brightness -->
     <string name="doze_brightness_force_title">Force brightness values</string>
