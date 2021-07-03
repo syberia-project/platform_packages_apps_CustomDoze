@@ -65,4 +65,43 @@
     <string name="always_on_display_schedule_custom">Включен в заданный промежуток времени</string>
     <string name="always_on_display_start_time_title">Время включения</string>
     <string name="always_on_display_end_time_title">Время отключения</string>
+
+    <!-- Ambient Text -->
+    <string name="ambient_category_title">Текст на AOD</string>
+
+    <string name="ambient_image_hide_type_title">Скрыть тип анимации</string>
+    <string name="ambient_image_show_type_title">Показать тип анимации</string>
+    <string name="ambient_image_animation_type_pick">Выберите тип анимации</string>
+    <string name="ambient_image_animation_alpha">Альфа</string>
+    <string name="ambient_image_animation_slide_to_left">Сдвиг влево</string>
+    <string name="ambient_image_animation_slide_to_right">Сдвиг вправо</string>
+    <string name="ambient_image_animation_slide_to_left_alpha">Сдвиг влево + Альфа</string>
+    <string name="ambient_image_animation_slide_to_right_alpha">Сдвиг вправо + Альфа</string>
+
+    <string name="ambient_text_enabled_title">Текст на AOD</string>
+    <string name="ambient_text_enabled_summary">Включить настраиваемый текст на экране AOD</string>
+    <string name="ambient_custom_text_title">Настраиваемый текст</string>
+
+    <string name="ambient_text_custom_color_start_title">Начальный цвет</string>
+    <string name="ambient_text_custom_color_final_title">Конечный цвет</string>
+
+    <string name="ambient_text_vertical_location_title">Вертикальное положение</string>
+    <string name="ambient_text_horizontal_location_title">Горизонтальное положение</string>
+    <string name="ambient_text_rotation_title">Вращение</string>
+    <string name="ambient_text_size_title">Размер шрифта</string>
+    <string name="ambient_text_font_title">Шрифт</string>
+    <string name="ambient_text_font_dialog_title">Выбрать шрифт</string>
+    <string name="ambient_text_font_summary">Выбор шрифта для текста на AOD</string>
+
+    <string name="ambient_text_color_type_title">Тип цвета</string>
+    <string name="ambient_text_color_type_pick">Выберите тип цвета</string>
+    <string name="ambient_text_color_type_accent">Цвет акцента</string>
+    <string name="ambient_text_color_type_custom">Настраиваемый цвет (начальный)</string>
+    <string name="ambient_text_color_type_gradient">Градиент (начальный и конечный)</string>
+    <string name="ambient_text_color_type_lava_lamp">Лава лампа</string>
+    <string name="ambient_text_color_type_lava_lamp_custom">Лава лампа с настраиваемыми цветами (начальный и конечный)</string>
+
+    <string name="ambient_hide_keyguard_title">Скрыть содержимое AOD</string>
+    <string name="ambient_hide_keyguard_summary">Скрыть часы, строку состояния и другие элементы на AOD</string>
+
 </resources>
